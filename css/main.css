@@ -185,6 +185,7 @@ main {
     /* border: solid 1px blue; */
     /* padding-top: 2%; */
     line-height: 2em;
+    margin-top: 0 !important;
 }
 
 .cajacv {
@@ -336,7 +337,7 @@ main {
     background-color: #8f9091;
     position: absolute;
     right: 12em !important;
-    bottom: 31em;
+    bottom: 27em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,7 +406,7 @@ main {
     background-color: #fff;
     position: absolute;
     left: 5em !important;
-    top: 14em;
+    top: 16em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,7 +494,7 @@ main {
     height: 25%;
     background-color: #8f9091;
     position: absolute;
-    left: 45em !important;
+    left: 40em !important;
     top: 14em;
     display: flex;
     justify-content: center;
