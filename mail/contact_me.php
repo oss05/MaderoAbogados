@@ -1,6 +1,6 @@
 <?php
 // Check for empty fields
-if(empty($_POST['name'])      ||
+/* if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
    empty($_POST['phone'])     ||
    empty($_POST['message'])   ||
@@ -22,5 +22,22 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
-return true;         
+return */ //true;       
+
+
+// Llamando a los campos
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$telefono = $_POST['telefono'];
+$mensaje = $_POST['mensaje'];
+// Datos para el correo
+$destinatario = "ricardokelebra@gmail.com";
+$asunto = "Contacto desde nuestra web";
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Mensaje: $mensaje";
+// Enviando Mensaje
+mail($destinatario, $asunto, $carta);
+//header();
 ?>
