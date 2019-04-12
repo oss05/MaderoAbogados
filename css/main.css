@@ -1864,10 +1864,11 @@ ul {
         .textoCorporativo {
             /* border: solid 1px rgb(232, 52, 232); */
             width: 100%;
-            font-size: 1em;
+            font-size: 1.2em;
             line-height: 2em;
             margin-right: 0;
             text-align: justify;
+            margin-top: -4em;
         }
         .imagenesCorp {
             /* border: solid 1px rgb(232, 64, 52); */
@@ -1881,7 +1882,7 @@ ul {
         .imgCorporativo {
             /* border: solid 1px rgb(52, 190, 232); */
             width: 100%;
-            height: 350px;
+            height: 500px;
             background-image: url('../img/banner1.png');
             background-size: cover;
             left: 0;
@@ -1915,10 +1916,11 @@ ul {
         }
         .textoContratos {
             width: 100%;
-            font-size: 1em;
+            font-size: 1.2em;
             line-height: 2em;
             margin-right: 0;
             text-align: justify;
+            margin-top: -1em;
         }
         .imagenesCont {
             /* border: solid 1px rgb(232, 64, 52); */
@@ -1932,7 +1934,7 @@ ul {
         .imgContratos {
             /* border: solid 1px rgb(52, 190, 232); */
             width: 100%;
-            height: 350px;
+            height: 430px;
             background-image: url('../img/banner3.png');
             background-size: cover;
             margin-top: 2%;
@@ -1986,9 +1988,11 @@ ul {
             /* border: solid 1px rgb(232, 52, 232); */
             width: 80%;
             font-size: 16px;
-            line-height: 2em;
+            line-height: 1.2em;
             text-align: justify;
             /* margin-right: 2em; */
+            display: flex;
+            justify-content: center;
         }
         .imagenesInmo {
             /* border: solid 1px rgb(232, 64, 52); */
@@ -2001,10 +2005,11 @@ ul {
         .imgInmobiliarios {
             /* border: solid 1px rgb(52, 190, 232); */
             width: 100%;
-            height: 115%;
+            height: 600px;
             background-image: url('../img/banner4.jpg');
             background-size: cover;
-            margin-top: -60px;
+            margin-top: -90px;
+            background-position-y: center;
         }
         .imagenInmoDentro {
             display: none
@@ -2021,10 +2026,10 @@ ul {
         .imgBancario {
             /* border: solid 1px rgb(52, 190, 232); */
             width: 100%;
-            height: 350px;
+            height: 370px;
             background-image: url('../img/bannerBancario.png');
             background-size: cover;
-            margin-top: -4%;
+            /* margin-top: -4%; */
             background-position-x: center;
         }
         .imagenBancDentro {
@@ -2054,7 +2059,7 @@ ul {
         .textoPropiedad {
             /* border: solid 1px rgb(232, 52, 232); */
             width: 80%;
-            font-size: 17px;
+            font-size: 1.2em;
             line-height: 2em;
             margin-right: 0;
             text-align: justify;
@@ -2081,14 +2086,37 @@ ul {
         }
     
         /* -------------------termina intelectual---------------- */
+        section.testim {
+            width: 100%;
+            -webkit-transform: translatey(-50%);
+            -moz-transform: translatey(-50%);
+            -ms-transform: translatey(-50%);
+            -o-transform: translatey(-50%);
+            transform: translatey(-50%);
+            position: relative;
+            top: 67em;
+        }
         /* --------------------empieza contacto------------------ */
         .contacto {
             /* border: solid 1px red; */
             width: 100%;
             height: 52em;
             position: relative;
-            top: 70em;
+            top: 76em;
             background-color: #fff;
         }
+
+        footer {
+            /* border: solid 1px green; */
+            width: 100%;
+            /* height: 28em; */
+            position: relative;
+            top: 61em;
+            background-color: #fff;
+            padding: 25px 0;
+            text-align: center;
+            background-color: #454849;
+        }
+        
  
     }
