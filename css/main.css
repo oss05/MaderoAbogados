@@ -1736,7 +1736,7 @@ ul {
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
     .heroBigcontainer {
         /* border: solid 1px red; */
-        width: 60%;
+        width: 33%;
         height: 80%;
         padding-top: 95px;
         margin-left: 0;
@@ -1744,6 +1744,11 @@ ul {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+    }
+
+    .containerHero {
+        /* border: solid 1px green; */
+        width: 95%;
     }
     .textoBreadcrumb {
         color: #fff;
