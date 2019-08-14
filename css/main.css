@@ -6,7 +6,7 @@ main {
     font-family: 'Montserrat';
 }
 
-header{
+header {
     height: 100vh;
 }
 
@@ -262,6 +262,7 @@ header{
     font-weight: bold;
     font-size: 2em;
 }
+
 /* --------------corporativo------------------- */
 
 .corporativo {
@@ -285,7 +286,7 @@ header{
     font-weight: 600
 }
 
-.tituloCorporativo > p {
+.tituloCorporativo>p {
     margin-bottom: 0;
 }
 
@@ -520,7 +521,7 @@ header{
     width: 100%;
     height: 68em;
     position: relative;
-    top:0;
+    top: 0;
 }
 
 .imgBancario {
@@ -637,7 +638,7 @@ section.testim {
     -o-transform: translatey(-50%);
     transform: translatey(-50%);
     position: relative;
-    top: 6em;
+    top: 10em;
 }
 
 .testim .wrap {
@@ -1169,7 +1170,7 @@ section.testim {
     width: 100%;
     height: 28em;
     position: relative;
-    top: 10em;
+    top: 8em;
     background-color: #fff;
 }
 
@@ -1304,7 +1305,7 @@ ul {
 /* --------------inicio moviles----------------- */
 
 @media only screen and (max-width: 600px) {
-    header{
+    header {
         height: auto !important;
     }
     .hero {
@@ -1340,7 +1341,7 @@ ul {
         width: 100%;
         /* text-align: left */
     }
-    .somosNuestroValor{
+    .somosNuestroValor {
         height: 72em;
     }
     .somosNuestroValorText {
@@ -1465,12 +1466,10 @@ ul {
         padding: 15px;
         padding-bottom: 0;
     }
-
-    .tituloCorporativo p{
+    .tituloCorporativo p {
         font-size: 1.2em;
         text-align: center;
     }
-
     .tituloCorporativo img {
         width: 6em;
         height: 5.5em;
@@ -1535,17 +1534,17 @@ ul {
         top: 0;
     }
     .contenedorTextoContratos {
-         /* border: solid 1px rgb(255, 237, 41); */
-         width: 100%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         color: #000;
-         font-family: 'Montserrat';
-         /* border: solid 1px blue; */
-         padding: 30px;
-         margin-top: -60px !important;
+        /* border: solid 1px rgb(255, 237, 41); */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #000;
+        font-family: 'Montserrat';
+        /* border: solid 1px blue; */
+        padding: 30px;
+        margin-top: -60px !important;
     }
     .contenedorTextoContratos button {
         margin-right: 0;
@@ -1596,7 +1595,7 @@ ul {
         border: 0;
         background-color: #000;
         width: 100px;
-        margin: 0 30px; 
+        margin: 0 30px;
         display: none;
     }
     .columnasInmo {
@@ -1668,7 +1667,6 @@ ul {
         /* border: solid 1px rgb(52, 232, 88); */
         display: none;
     }
-    
     /* -----------------fin bancario---------------- */
     /* --------------inicio intelectual---------------- */
     .intelectual {
@@ -1716,7 +1714,6 @@ ul {
         /* border: solid 1px rgb(52, 232, 88); */
         display: none;
     }
-
     /* -------------------termina intelectual---------------- */
     /* --------------------empieza contacto------------------ */
     .contacto {
@@ -1727,472 +1724,463 @@ ul {
         top: 39em;
         background-color: #fff;
     }
-
-    footer{
+    footer {
         top: 29em;
     }
 }
-    /* -------------------termina contacto--------------------- */
-    /* ---------------------empieza tabletas------------------ */
-    @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
-        .heroBigcontainer {
-            /* border: solid 1px red; */
-            width: 60%;
-            height: 80%;
-            padding-top: 95px;
-            margin-left: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        .textoBreadcrumb {
-            color: #fff;
-            font-weight: 300;
-            font-family: 'Montserrat';
-            font-size: 0.9em;
-            /* border: solid 1px red; */
-            width: 100%;
-            /* text-align: left */
-        }
-        .tituloValor span {
-            font-weight: bold;
-            font-size: 1.4em;
-        }
-        
-        .somosNuestroValor{
-            height: 100vh;
-        }
-        
-        .somosNuestroValorText {
-            margin: 10px 0;
-            width: 65%;
-            height: 85%;
-            /* border: solid 1px saddlebrown; */
-            position: absolute;
-            background-color: #8f9091;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-        }
 
-        .somosNuestroValorImg {
-            height: 80%;
-        }
-        .contenidoValor {
-            /* border: solid 1px green; */
-            width: 70%;
-            padding-top: 2%;
-            margin-left: 2.5em;
-        }
-        .textoValor {
-            width: 100% !important;
-            color: #fff;
-            font-weight: 200 !important;
-            font-family: 'Montserrat';
-            font-size: 1.2em !important;
-            /* border: solid 1px blue; */
-            /* padding-top: 2%; */
-            line-height: 1.1em;
-        }
-        .cvValor {
-            color: #dad6d6 !important;
-            text-decoration: none !important;
-            font-size: 1em;
-            border-bottom: 2px red solid;
-            transition: 0.5s ease all;
-            margin-bottom: 25px;
-        }
-        .breadcrumb2 {
-            top: 85%;
-            height: 15vh;
-            display: flex;
-            align-items: center;
-        }
-        /* ---------seccion2--------------------- */
-        .areasDePractica {
-            /* border: solid 1px red; */
-            width: 100%;
-            height: 8em;
-            position: relative;
-            top: 0;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 10px;
-        }
-        .titularMadero2 {
-            /* border: solid 1px red; */
-            /* width: 55%; */
-            text-transform: uppercase;
-            color: #545454;
-            font-family: 'Montserrat';
-            font-weight: bold;
-            font-size: 2.0em;
-        }
-        .titularMadero2 span {
-            font-weight: bold;
-            font-size: 2em;
-        }
-        /* --------------corporativo------------------- */
-        .corporativo {
-            /* border: solid 1px blue; */
-            width: 100%;
-            height: 68em;
-            position: relative;
-            top: 1em;
-            background-color: #8f9091;
-        }
-        .tituloCorporativo {
-            /* border: solid 1px rgb(0, 255, 123); */
-            width: 100%;
-            height: 14em;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-direction: column;
-            font-size: 1.4em;
-            font-weight: 700;
-            padding: 15px;
-            padding-bottom: 0;
-        }
-    
-        .tituloCorporativo p{
-            font-size: 1.2em;
-            text-align: center;
-        }
-    
-        .tituloCorporativo img {
-            width: 6em;
-            height: 5.5em;
-            margin-top: 1em;
-        }
-        .corpGob {
-            position: relative;
-            /* left: -13vw; */
-            /* top: 4em !important; */
-            height: 4px;
-            border: 0;
-            background-color: #000;
-            width: 100px;
-            margin: 0 30px;
-        }
-        .contenedorTextoCorporativo {
-            /* border: solid 1px rgb(255, 237, 41); */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: #fff;
-            font-family: 'Montserrat';
-            /* border: solid 1px blue; */
-            padding: 30px;
-            padding-top: 0 !important;
-        }
-        .textoCorporativo {
-            /* border: solid 1px rgb(232, 52, 232); */
-            width: 100%;
-            font-size: 1.2em;
-            line-height: 2em;
-            margin-right: 0;
-            text-align: justify;
-            margin-top: -4em;
-        }
-        .imagenesCorp {
-            /* border: solid 1px rgb(232, 64, 52); */
-            width: 100%;
-            height: 60%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
-            margin-top: 2%;
-        }
-        .imgCorporativo {
-            /* border: solid 1px rgb(52, 190, 232); */
-            width: 100%;
-            height: 500px;
-            background-image: url('../img/banner1.png');
-            background-size: cover;
-            left: 0;
-        }
-        .imagenCorpDentro {
-            display: none;
-        }
-        /* --------------fin corporativo----------------------- */
-        /* -----------------contratos---------------------------- */
-        .contratos {
-            width: 100%;
-            height: 72em;
-            position: relative;
-            top: 3em;
-        }
-        .contenedorTextoContratos {
-             /* border: solid 1px rgb(255, 237, 41); */
-             width: 100%;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             flex-direction: column;
-             color: #000;
-             font-family: 'Montserrat';
-             /* border: solid 1px blue; */
-             padding: 30px;
-             margin-top: -60px !important;
-        }
-        .contenedorTextoContratos button {
-            margin-right: 0;
-        }
-        .textoContratos {
-            width: 100%;
-            font-size: 1.2em;
-            line-height: 2em;
-            margin-right: 0;
-            text-align: justify;
-            margin-top: -1em;
-        }
-        .imagenesCont {
-            /* border: solid 1px rgb(232, 64, 52); */
-            width: 100%;
-            height: 50%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin-top: 2%;
-        }
-        .imgContratos {
-            /* border: solid 1px rgb(52, 190, 232); */
-            width: 100%;
-            height: 500px;
-            background-image: url('../img/banner3.png');
-            background-size: cover;
-            margin-top: 2%;
-        }
-        .imagenContDentro {
-            /* border: solid 1px rgb(52, 232, 88); */
-            display: none;
-        }
-        /* --------------------fin contratos--------- */
-        /* -----------inmobiliario----------------- */
-        .inmobiliario {
-            /* border: solid 1px red; */
-            width: 100%;
-            height: 60em;
-            position: relative;
-            background-color: #8f9091;
-        }
-        .corpGob2 {
-            /* position: relative; */
-            /* left: -13vw; */
-            top: 4em !important;
-            height: 4px;
-            border: 0;
-            background-color: #000;
-            width: 100px;
-            margin: 0 30px; 
-            display: none;
-        }
-        .columnasInmo {
-            /* border: solid 1px rgb(30, 225, 0); */
-            display: flex;
-            height: 50em;
-            align-items: center;
-            flex-direction: column-reverse;
-            margin-top: -5em;
-        }
-        .contenedorTextoInmobiliarios {
-            /* border: solid 1px rgb(255, 237, 41); */
-            width: 100%;
-            height: 50%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-direction: column;
-        }
-        .contenedorTextoInmobiliarios button {
-            /* margin-right: 6em; */
-        }
-        .textoInmobiliarios {
-            /* border: solid 1px rgb(232, 52, 232); */
-            width: 80%;
-            font-size: 16px;
-            line-height: 1.2em;
-            text-align: justify;
-            /* margin-right: 2em; */
-            display: flex;
-            justify-content: center;
-        }
-        .imagenesInmo {
-            /* border: solid 1px rgb(232, 64, 52); */
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
-        }
-        .imgInmobiliarios {
-            /* border: solid 1px rgb(52, 190, 232); */
-            width: 100%;
-            height: 500px;
-            background-image: url('../img/banner4.jpg');
-            background-size: cover;
-            margin-top: -90px;
-            background-position-y: center;
-        }
-        .imagenInmoDentro {
-            display: none
-        }
-        /* -----------------fin inmobiliario---------------------- */
-        /* --------------------inicio bancario---------------------- */
-        .bancario {
-            /* border: solid 1px green; */
-            width: 100%;
-            height: 58em;
-            position: relative;
-            top: 3em;
-        }
-        .imgBancario {
-            /* border: solid 1px rgb(52, 190, 232); */
-            width: 100%;
-            height: 370px;
-            background-image: url('../img/bannerBancario.png');
-            background-size: cover;
-            /* margin-top: -4%; */
-            background-position-x: center;
-        }
-        .imagenBancDentro {
-            /* border: solid 1px rgb(52, 232, 88); */
-            display: none;
-        }
-        
-        /* -----------------fin bancario---------------- */
-        /* --------------inicio intelectual---------------- */
-        .intelectual {
-            /* border: solid 1px rgb(0, 217, 255); */
-            width: 100%;
-            height: 58em;
-            position: relative;
-            top: 4em;
-            background-color: #8f9091;
-            margin-bottom: 0;
-        }
-        .contenedorTextoPropiedad {
-            /* border: solid 1px rgb(255, 237, 41); */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin-top: -70px;
-        }
-        .textoPropiedad {
-            /* border: solid 1px rgb(232, 52, 232); */
-            width: 80%;
-            font-size: 1.2em;
-            line-height: 2em;
-            margin-right: 0;
-            text-align: justify;
-        }
-        .imagenesProp {
-            /* border: solid 1px rgb(232, 64, 52); */
-            width: 100%;
-            height: 60%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
-            margin-top: 9%;
-        }
-        .imgPropiedad {
-            /* border: solid 1px rgb(52, 190, 232); */
-            width: 100%;
-            height: 350px;
-            background-image: url('../img/banner6.png');
-            background-size: cover;
-        }
-        .imagenPropDentro {
-            /* border: solid 1px rgb(52, 232, 88); */
-            display: none;
-        }
-    
-        /* -------------------termina intelectual---------------- */
-        section.testim {
-            width: 100%;
-            -webkit-transform: translatey(-50%);
-            -moz-transform: translatey(-50%);
-            -ms-transform: translatey(-50%);
-            -o-transform: translatey(-50%);
-            transform: translatey(-50%);
-            position: relative;
-            top: 17em;
-        }
-        /* --------------------empieza contacto------------------ */
-        .contacto {
-            /* border: solid 1px red; */
-            width: 100%;
-            /* height: 52em; */
-            position: relative;
-            top: 22em;
-            background-color: #fff;
-        }
+/* -------------------termina contacto--------------------- */
 
-        footer {
-            /* border: solid 1px green; */
-            width: 100%;
-            /* height: 28em; */
-            position: relative;
-            top: 20em;
-            background-color: #fff;
-            padding: 25px 0;
-            text-align: center;
-            background-color: #454849;
-        }
-        
- 
+/* ---------------------empieza tabletas------------------ */
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    .heroBigcontainer {
+        /* border: solid 1px red; */
+        width: 33%;
+        height: 80%;
+        padding-top: 95px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
-    @media only screen and (min-width: 1550px) {
-        body {
-          /* background-color: lightblue; */
-        }
+    .containerHero {
+        /* border: solid 1px green; */
+        width: 95%;
+    }
+    .textoBreadcrumb {
+        color: #fff;
+        font-weight: 300;
+        font-family: 'Montserrat';
+        font-size: 0.9em;
+        /* border: solid 1px red; */
+        width: 100%;
+        /* text-align: left */
+    }
+    .tituloValor span {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    .somosNuestroValor {
+        height: 100vh;
+    }
+    .somosNuestroValorText {
+        margin: 10px 0;
+        width: 65%;
+        height: 85%;
+        /* border: solid 1px saddlebrown; */
+        position: absolute;
+        background-color: #8f9091;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .somosNuestroValorImg {
+        height: 80%;
+    }
+    .contenidoValor {
+        /* border: solid 1px green; */
+        width: 70%;
+        padding-top: 2%;
+        margin-left: 2.5em;
+    }
+    .textoValor {
+        width: 100% !important;
+        color: #fff;
+        font-weight: 200 !important;
+        font-family: 'Montserrat';
+        font-size: 1.2em !important;
+        /* border: solid 1px blue; */
+        /* padding-top: 2%; */
+        line-height: 1.1em;
+    }
+    .cvValor {
+        color: #dad6d6 !important;
+        text-decoration: none !important;
+        font-size: 1em;
+        border-bottom: 2px red solid;
+        transition: 0.5s ease all;
+        margin-bottom: 25px;
+    }
+    .breadcrumb2 {
+        top: 85%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+    }
+    /* ---------seccion2--------------------- */
+    .areasDePractica {
+        /* border: solid 1px red; */
+        width: 100%;
+        height: 8em;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .titularMadero2 {
+        /* border: solid 1px red; */
+        /* width: 55%; */
+        text-transform: uppercase;
+        color: #545454;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 2.0em;
+    }
+    .titularMadero2 span {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    /* --------------corporativo------------------- */
+    .corporativo {
+        /* border: solid 1px blue; */
+        width: 100%;
+        height: 68em;
+        position: relative;
+        top: 1em;
+        background-color: #8f9091;
+    }
+    .tituloCorporativo {
+        /* border: solid 1px rgb(0, 255, 123); */
+        width: 100%;
+        height: 14em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.4em;
+        font-weight: 700;
+        padding: 15px;
+        padding-bottom: 0;
+    }
+    .tituloCorporativo p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .tituloCorporativo img {
+        width: 6em;
+        height: 5.5em;
+        margin-top: 1em;
+    }
+    .corpGob {
+        position: relative;
+        /* left: -13vw; */
+        /* top: 4em !important; */
+        height: 4px;
+        border: 0;
+        background-color: #000;
+        width: 100px;
+        margin: 0 30px;
+    }
+    .contenedorTextoCorporativo {
+        /* border: solid 1px rgb(255, 237, 41); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        font-family: 'Montserrat';
+        /* border: solid 1px blue; */
+        padding: 30px;
+        padding-top: 0 !important;
+    }
+    .textoCorporativo {
+        /* border: solid 1px rgb(232, 52, 232); */
+        width: 100%;
+        font-size: 1.2em;
+        line-height: 2em;
+        margin-right: 0;
+        text-align: justify;
+        margin-top: -4em;
+    }
+    .imagenesCorp {
+        /* border: solid 1px rgb(232, 64, 52); */
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 2%;
+    }
+    .imgCorporativo {
+        /* border: solid 1px rgb(52, 190, 232); */
+        width: 100%;
+        height: 500px;
+        background-image: url('../img/banner1.png');
+        background-size: cover;
+        left: 0;
+    }
+    .imagenCorpDentro {
+        display: none;
+    }
+    /* --------------fin corporativo----------------------- */
+    /* -----------------contratos---------------------------- */
+    .contratos {
+        width: 100%;
+        height: 72em;
+        position: relative;
+        top: 3em;
+    }
+    .contenedorTextoContratos {
+        /* border: solid 1px rgb(255, 237, 41); */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #000;
+        font-family: 'Montserrat';
+        /* border: solid 1px blue; */
+        padding: 30px;
+        margin-top: -60px !important;
+    }
+    .contenedorTextoContratos button {
+        margin-right: 0;
+    }
+    .textoContratos {
+        width: 100%;
+        font-size: 1.2em;
+        line-height: 2em;
+        margin-right: 0;
+        text-align: justify;
+        margin-top: -1em;
+    }
+    .imagenesCont {
+        /* border: solid 1px rgb(232, 64, 52); */
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 2%;
+    }
+    .imgContratos {
+        /* border: solid 1px rgb(52, 190, 232); */
+        width: 100%;
+        height: 500px;
+        background-image: url('../img/banner3.png');
+        background-size: cover;
+        margin-top: 2%;
+    }
+    .imagenContDentro {
+        /* border: solid 1px rgb(52, 232, 88); */
+        display: none;
+    }
+    /* --------------------fin contratos--------- */
+    /* -----------inmobiliario----------------- */
+    .inmobiliario {
+        /* border: solid 1px red; */
+        width: 100%;
+        height: 60em;
+        position: relative;
+        background-color: #8f9091;
+    }
+    .corpGob2 {
+        /* position: relative; */
+        /* left: -13vw; */
+        top: 4em !important;
+        height: 4px;
+        border: 0;
+        background-color: #000;
+        width: 100px;
+        margin: 0 30px;
+        display: none;
+    }
+    .columnasInmo {
+        /* border: solid 1px rgb(30, 225, 0); */
+        display: flex;
+        height: 50em;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: -5em;
+    }
+    .contenedorTextoInmobiliarios {
+        /* border: solid 1px rgb(255, 237, 41); */
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contenedorTextoInmobiliarios button {
+        /* margin-right: 6em; */
+    }
+    .textoInmobiliarios {
+        /* border: solid 1px rgb(232, 52, 232); */
+        width: 80%;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: justify;
+        /* margin-right: 2em; */
+        display: flex;
+        justify-content: center;
+    }
+    .imagenesInmo {
+        /* border: solid 1px rgb(232, 64, 52); */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .imgInmobiliarios {
+        /* border: solid 1px rgb(52, 190, 232); */
+        width: 100%;
+        height: 500px;
+        background-image: url('../img/banner4.jpg');
+        background-size: cover;
+        margin-top: -90px;
+        background-position-y: center;
+    }
+    .imagenInmoDentro {
+        display: none
+    }
+    /* -----------------fin inmobiliario---------------------- */
+    /* --------------------inicio bancario---------------------- */
+    .bancario {
+        /* border: solid 1px green; */
+        width: 100%;
+        height: 58em;
+        position: relative;
+        top: 3em;
+    }
+    .imgBancario {
+        /* border: solid 1px rgb(52, 190, 232); */
+        width: 100%;
+        height: 370px;
+        background-image: url('../img/bannerBancario.png');
+        background-size: cover;
+        /* margin-top: -4%; */
+        background-position-x: center;
+    }
+    .imagenBancDentro {
+        /* border: solid 1px rgb(52, 232, 88); */
+        display: none;
+    }
+    /* -----------------fin bancario---------------- */
+    /* --------------inicio intelectual---------------- */
+    .intelectual {
+        /* border: solid 1px rgb(0, 217, 255); */
+        width: 100%;
+        height: 58em;
+        position: relative;
+        top: 4em;
+        background-color: #8f9091;
+        margin-bottom: 0;
+    }
+    .contenedorTextoPropiedad {
+        /* border: solid 1px rgb(255, 237, 41); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -70px;
+    }
+    .textoPropiedad {
+        /* border: solid 1px rgb(232, 52, 232); */
+        width: 80%;
+        font-size: 1.2em;
+        line-height: 2em;
+        margin-right: 0;
+        text-align: justify;
+    }
+    .imagenesProp {
+        /* border: solid 1px rgb(232, 64, 52); */
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 9%;
+    }
+    .imgPropiedad {
+        /* border: solid 1px rgb(52, 190, 232); */
+        width: 100%;
+        height: 350px;
+        background-image: url('../img/banner6.png');
+        background-size: cover;
+    }
+    .imagenPropDentro {
+        /* border: solid 1px rgb(52, 232, 88); */
+        display: none;
+    }
+    /* -------------------termina intelectual---------------- */
+    section.testim {
+        width: 100%;
+        -webkit-transform: translatey(-50%);
+        -moz-transform: translatey(-50%);
+        -ms-transform: translatey(-50%);
+        -o-transform: translatey(-50%);
+        transform: translatey(-50%);
+        position: relative;
+        top: 17em;
+    }
+    /* --------------------empieza contacto------------------ */
+    .contacto {
+        /* border: solid 1px red; */
+        width: 100%;
+        /* height: 52em; */
+        position: relative;
+        top: 22em;
+        background-color: #fff;
+    }
+    footer {
+        /* border: solid 1px green; */
+        width: 100%;
+        /* height: 28em; */
+        position: relative;
+        top: 20em;
+        background-color: #fff;
+        padding: 25px 0;
+        text-align: center;
+        background-color: #454849;
+    }
+}
 
-        .somosNuestroValor{
-            border: solid 1px red;
-            height: 100vh;
-        }
-
-        .somosNuestroValorText {
-            height: 85%;
-            align-items: center;
-        }
-
-        .somosNuestroValorImg {
-            width: 45%;
-            height: 75%;
-            /* border: solid 1px orangered; */
-        }
-        .breadcrumb2 {
-            display: flex;
-            align-items: center;
-            top: 85%;
-            height: 15%;
-        }
-        .areasDePractica{
-            top: 0;
-        }
-        .corporativo{
-            top: 0;
-        }
-        .contratos{
-            top:0;
-        }
-        .inmobiliario{
-            top:0;
-        }
-        .bancario{
-            top:0;
-        }
-        .intelectual{
-            top:0;
-                margin-bottom: 0;
-        }
-
-      }
-
-
+@media only screen and (min-width: 1550px) {
+    body {
+        /* background-color: lightblue; */
+    }
+    .somosNuestroValor {
+        border: solid 1px red;
+        height: 100vh;
+    }
+    .somosNuestroValorText {
+        height: 85%;
+        align-items: center;
+    }
+    .somosNuestroValorImg {
+        width: 45%;
+        height: 75%;
+        /* border: solid 1px orangered; */
+    }
+    .breadcrumb2 {
+        display: flex;
+        align-items: center;
+        top: 85%;
+        height: 15%;
+    }
+    .areasDePractica {
+        top: 0;
+    }
+    .corporativo {
+        top: 0;
+    }
+    .contratos {
+        top: 0;
+    }
+    .inmobiliario {
+        top: 0;
+    }
+    .bancario {
+        top: 0;
+    }
+    .intelectual {
+        top: 0;
+        margin-bottom: 0;
+    }
+}
