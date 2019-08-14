@@ -1,11 +1,8 @@
 //Dependence
 const request = require('request');
-// const SibApiV3Sdk = require('sib-api-v3-sdk');
-//const defaultClient = SibApiV3Sdk.ApiClient.instance;
-
-//Apikey
-//const apiKey = defaultClient.authentications['api-key'];
-//apiKey.apiKey = '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';
+const jsdom = require ( 'jsdom' ) ;   
+const { JSDOM } =  jsdom ;    
+global.document = new JSDOM('index.html').window.document;
 
 
 //Etiquetas
@@ -47,7 +44,7 @@ const sendEmail = () => {
     request.post({
         url: 'https://api.sendinblue.com/v3/smtp/email',
         headers: {
-            'api-key': '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'
+            'api-key': ''
         },
         body: jsonDataObj,
         json: true
