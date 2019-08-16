@@ -379,32 +379,30 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <form id="contactForm"
-                            novalidate="novalidate">
+                        <form id="contactForm" novalidate="novalidate" action = "https://formspree.io/ricardokelebra@gmail.com" method = "POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="name" type="text"
-                                            placeholder="Nombre" required="required"
-                                            data-validation-required-message="Ingresa tu nombre">
+                                        <input class="form-control" name="name" id="name" type="text" placeholder="Nombre"
+                                            required="required" data-validation-required-message="Ingresa tu nombre">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control"  id="email" type="email"
+                                        <input class="form-control" name="email" id="email" type="email"
                                             placeholder="Correo electrónico" required="required"
                                             data-validation-required-message="Ingresa tu correo electrónico">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control"  id="phone" type="tel"
-                                            placeholder="Teléfono" required="required"
+                                        <input class="form-control" name="phonenomber" id="phone" type="tel" placeholder="Teléfono"
+                                            required="required"
                                             data-validation-required-message="Ingresa tu número telefónico">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control"  id="message" placeholder="Mensaje"
+                                        <textarea class="form-control" id="message" name="text" placeholder="Mensaje"
                                             required="required"
                                             data-validation-required-message="Ingresa el mensaje."></textarea>
                                         <p class="help-block text-danger"></p>
@@ -414,7 +412,7 @@
                                 <div class="col-lg-12 text-center">
                                     <div id="success"></div>
                                     <button id="sendMessageButton" class="btn btn-danger btn-lg text-uppercase"
-                                        type="submit">Enviar
+                                          type="submit">Enviar
                                     </button>
                                 </div>
                             </div>
@@ -463,7 +461,8 @@
                 <div class="col-md-4 text-right">
 
                     <ul class="listaFooter">
-                        <li><a class="textoMAderoFooter" href="mailto:vanesa@maderomambama.com "><i class="fas fa-envelope fa-lg"></i>&nbsp;
+                        <li><a class="textoMAderoFooter" href="mailto:vanesa@maderomambama.com "><i
+                                    class="fas fa-envelope fa-lg"></i>&nbsp;
                                 vanesa@maderomambama.com</a> </li>
                         <li><span class="textoMAderoFooter "><i class="fas fa-mobile-alt"></i>&nbsp; 55 4350 8335</span>
                         </li>
@@ -492,6 +491,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+    <script src="./mail/send.js"></script>
     <script>
         'use strict'
         var testim = document.getElementById("testim"),
